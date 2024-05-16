@@ -26,6 +26,10 @@ html {
   min-height: 100%;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .desktop-only {
   height: 100%;
   @media (max-width: $mobileBreak) {
@@ -77,6 +81,7 @@ main {
   position: relative;
   border-radius: 20px;
   box-shadow: 0 50px 50px -20px hsla(274, 44%, 21%, 0.699);
+  width: 992px;
   @media (min-width: $desktopBreak) {
     max-width: 900px;
     width: 100%;
